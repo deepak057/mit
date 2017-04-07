@@ -1,0 +1,63 @@
+<html>
+   <head>
+      <title>
+         MIT
+      </title>
+      
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js"  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.3/angular.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.3/angular-route.js"></script>
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+   </head>
+
+   <body ng-app="mitApp">
+      
+
+  <header>
+         <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+               <div class="navbar-header">
+                  <a href="#" class="navbar-brand">MIT</a>
+               </div>
+               <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="#">Item 1</a></li>
+                  <li><a href="#">Item 2 </a></li>
+               </ul>
+               <form class="navbar-form navbar-left">
+                  <div class="form-group">
+                     <input type="text" class="form-control" placeholder="Text here" />
+                  </div>
+                  <button type="submit" class="btn btn-default">Search</button>
+               </form>
+            </div>
+         </nav>
+      </header>
+    
+
+<div class="main container" id="main">
+
+
+<div ng-view></div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+   </body>
+
+      <script type="text/javascript" src="static/js/script.js"></script>
+
+
+
+   </html>
